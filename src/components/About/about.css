@@ -1,0 +1,75 @@
+#me {
+    background-color: #242424b6;
+    margin-top: 15vh;
+    border-radius: 20px;
+}
+
+#history {
+    font-size: 20px;
+    padding: 20px 0 20px 20px;
+}
+
+#experience {
+    background-color: #242424b6;
+    margin-top: 10vh;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.works {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.workIcon {
+    width: 40px;
+    border-radius: 5px;
+    border: solid 1px white;
+    user-select: none;
+}
+
+.workTitle {
+    display: flex;
+    gap: 10px;
+}
+
+.aboutTitle {
+    background-color: #242424b6;
+    border-radius: 20px 20px 0 0;
+    padding-left: 20px;
+}
+
+#contact {
+    margin-top: 10vh;
+}
+
+#form textarea {
+    width: 500px;
+    height: 70px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#form input {
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.function {
+    margin-left: 60px;
+    margin-top: -15px;
+    font-style: italic;
+}
+

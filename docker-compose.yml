@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  client:
+    image: anjeroo/portifolio:latest
+    container_name: anjeroo.portifolio-client
+    restart: unless-stopped
+    ports:
+      - '0.0.0.0:${PORT}:${PORT}'
+    networks:
+      - kszinhu
+    env_file:
+      - stack.env
+
+networks:
+  kszinhu:
+    name: kszinhu
+    external: true

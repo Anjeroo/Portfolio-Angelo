@@ -1,0 +1,36 @@
+.projectImg {
+    width: 470px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.projectImg:hover {
+    width: 700px;
+}
+
+#projectsDiv {
+    margin-top: 15vh;
+    background-color: #242424b6;
+    border-radius: 20px;
+}
+
+#projectInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 30px;
+}
+
+#projectTitle {
+    padding-left: 20px;
+    background-color: #242424b6;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+
+.languageIcon img {
+    width: 50px;
+}

@@ -1,0 +1,50 @@
+#skillsDiv {
+    background-color: #242424b6;
+    margin-top: 15vh;
+    height: 100%;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+#languages, #tools {
+    margin-top: 30px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    user-select: none;
+}
+
+.skillIcon {
+    width: 90px;
+}
+
+#languagesDiv, #toolsDiv {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.simple {
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.languageText {
+    text-align: center;}
+
+#skillTitle {
+    background-color: #242424b6;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+
+#skillOrg {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    justify-content: center;
+}
+
+.languageTitle {
+    text-align: center;
+}
