@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   client:
-    image: anjeroo/portifolio:latest
+    image: anjeroo/portfolio-angelo:latest
     container_name: anjeroo.portifolio-client
     restart: unless-stopped
     ports:
